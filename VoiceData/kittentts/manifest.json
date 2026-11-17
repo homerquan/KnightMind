@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "model": "kitten-tts-nano-0.8",
+  "files": {
+    "onnx": "kitten_tts_nano_v0_8.onnx",
+    "voices": "voices.npz",
+    "phonemizerRules": "en_rules",
+    "phonemizerList": "en_list"
+  }
+}

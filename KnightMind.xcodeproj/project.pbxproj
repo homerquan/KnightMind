@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000011 /* ChessCore in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000021 /* ChessCore */; };
+		A00000000000000000000012 /* StockfishBridge in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000022 /* StockfishBridge */; };
+		A00000000000000000000013 /* nn-1a298aa575a0.nnue in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000031 /* nn-1a298aa575a0.nnue */; };
+		A00000000000000000000014 /* KittenTTS in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000024 /* KittenTTS */; };
+		A00000000000000000000015 /* kittentts in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000034 /* kittentts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0000000000000000000000C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000001;
+			remoteInfo = KnightMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000030 /* KnightMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = KnightMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000031 /* nn-1a298aa575a0.nnue */ = {isa = PBXFileReference; lastKnownFileType = file; name = "nn-1a298aa575a0.nnue"; path = "EngineData/nn-1a298aa575a0.nnue"; sourceTree = "<group>"; };
+		A00000000000000000000032 /* AppInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = AppInfo.plist; path = Support/AppInfo.plist; sourceTree = "<group>"; };
+		A00000000000000000000033 /* KnightMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = KnightMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000034 /* kittentts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = kittentts; path = VoiceData/kittentts; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A00000000000000000000040 /* KnightMind */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KnightMind;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000041 /* KnightMindUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KnightMindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000011 /* ChessCore in Frameworks */,
+				A00000000000000000000012 /* StockfishBridge in Frameworks */,
+				A00000000000000000000014 /* KittenTTS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000060 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000040 /* KnightMind */,
+				A00000000000000000000041 /* KnightMindUITests */,
+				A00000000000000000000031 /* nn-1a298aa575a0.nnue */,
+				A00000000000000000000034 /* kittentts */,
+				A00000000000000000000032 /* AppInfo.plist */,
+				A00000000000000000000061 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000061 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000030 /* KnightMind.app */,
+				A00000000000000000000033 /* KnightMindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000001 /* KnightMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A000000000000000000000A1 /* Build configuration list for PBXNativeTarget "KnightMind" */;
+			buildPhases = (
+				A00000000000000000000050 /* Sources */,
+				A00000000000000000000051 /* Frameworks */,
+				A00000000000000000000052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000040 /* KnightMind */,
+			);
+			name = KnightMind;
+			packageProductDependencies = (
+				A00000000000000000000021 /* ChessCore */,
+				A00000000000000000000022 /* StockfishBridge */,
+				A00000000000000000000024 /* KittenTTS */,
+			);
+			productName = KnightMind;
+			productReference = A00000000000000000000030 /* KnightMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00000000000000000000002 /* KnightMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A000000000000000000000A2 /* Build configuration list for PBXNativeTarget "KnightMindUITests" */;
+			buildPhases = (
+				A00000000000000000000053 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0000000000000000000000D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00000000000000000000041 /* KnightMindUITests */,
+			);
+			name = KnightMindUITests;
+			productName = KnightMindUITests;
+			productReference = A00000000000000000000033 /* KnightMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2720;
+				LastUpgradeCheck = 2720;
+				TargetAttributes = {
+					A00000000000000000000001 = {
+						CreatedOnToolsVersion = 27.2;
+					};
+					A00000000000000000000002 = {
+						CreatedOnToolsVersion = 27.2;
+						TestTargetID = A00000000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = A000000000000000000000A0 /* Build configuration list for PBXProject "KnightMind" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000060;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A00000000000000000000020 /* XCLocalSwiftPackageReference "." */,
+				A00000000000000000000023 /* XCRemoteSwiftPackageReference "KittenTTS-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A00000000000000000000061 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000001 /* KnightMind */,
+				A00000000000000000000002 /* KnightMindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000013 /* nn-1a298aa575a0.nnue in Resources */,
+				A00000000000000000000015 /* kittentts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00000000000000000000053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0000000000000000000000D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00000000000000000000001 /* KnightMind */;
+			targetProxy = A0000000000000000000000C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00000000000000000000091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00000000000000000000092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983M79B224;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightMind;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.homerquan.knightmind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00000000000000000000093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 983M79B224;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KnightMind;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.homerquan.knightmind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00000000000000000000094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChessRoom.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightMind;
+			};
+			name = Debug;
+		};
+		A00000000000000000000095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChessRoom.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnightMind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A000000000000000000000A0 /* Build configuration list for PBXProject "KnightMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000090 /* Debug */,
+				A00000000000000000000091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A000000000000000000000A1 /* Build configuration list for PBXNativeTarget "KnightMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000092 /* Debug */,
+				A00000000000000000000093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A000000000000000000000A2 /* Build configuration list for PBXNativeTarget "KnightMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000094 /* Debug */,
+				A00000000000000000000095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A00000000000000000000020 /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000000000000000000023 /* XCRemoteSwiftPackageReference "KittenTTS-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KittenML/KittenTTS-swift";
+			requirement = {
+				kind = revision;
+				revision = 20cd4d8784c1bad348326955709892c8dfe7226b;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000021 /* ChessCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference "." */;
+			productName = ChessCore;
+		};
+		A00000000000000000000022 /* StockfishBridge */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCLocalSwiftPackageReference "." */;
+			productName = StockfishBridge;
+		};
+		A00000000000000000000024 /* KittenTTS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000023 /* XCRemoteSwiftPackageReference "KittenTTS-swift" */;
+			productName = KittenTTS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000000 /* Project object */;
+}

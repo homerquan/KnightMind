@@ -1,0 +1,49 @@
+KnightMind
+
+KnightMind is free software licensed under the GNU General Public License,
+version 3. It is distributed without warranty. The complete license text is
+included in Stockfish-LICENSE.txt and in the source distribution's LICENSE.
+Third-party components retain their own copyrights and licenses below.
+
+Stockfish 19
+By the Stockfish developers. GNU General Public License, version 3.
+Source: https://github.com/official-stockfish/Stockfish/tree/sf_19
+The corresponding Stockfish source, integration code, build configuration,
+and evaluation network are included in the KnightMind source distribution.
+See Stockfish-AUTHORS.txt and Stockfish-LICENSE.txt.
+
+KittenTTS Swift SDK
+By KittenML and contributors. Apache License, version 2.0, as declared in
+the upstream README. The C++ phonemizer implementation carries a 2024
+copyright notice under Apache 2.0.
+Source: https://github.com/KittenML/KittenTTS-swift
+Revision: 20cd4d8784c1bad348326955709892c8dfe7226b
+See Apache-2.0-LICENSE.txt.
+
+Kitten TTS Nano 0.8 fp32 model and voice embeddings
+By KittenML. Apache License, version 2.0, as declared in the model card.
+Model: https://huggingface.co/KittenML/kitten-tts-nano-0.8-fp32
+Project: https://github.com/KittenML/KittenTTS
+The app bundles the model and voice embeddings and uses Jasper for spoken
+commentary. Model revision: e73cfb095bd949c786ccdcf3b8ab04eb36c47442.
+See Apache-2.0-LICENSE.txt.
+
+eSpeak NG English pronunciation data
+By Jonathan Duddington, Reece H. Dunn, and the eSpeak NG contributors.
+The app bundles en_rules and en_list for KittenTTS, licensed under the GNU
+General Public License, version 3 or later. Their original copyright and
+license headers remain in the bundled source data.
+Corresponding source:
+https://github.com/espeak-ng/espeak-ng/tree/59eb19938f12e30881c81d86ce4a7de25414c9f4/dictsource
+The full GPLv3 license text is included in Stockfish-LICENSE.txt.
+
+ONNX Runtime 1.24.2
+Copyright (c) Microsoft Corporation. All rights reserved.
+MIT License. See ONNXRuntime-LICENSE.txt.
+Its dependencies' notices are included in ONNXRuntime-ThirdPartyNotices.txt.
+Source: https://github.com/microsoft/onnxruntime/tree/v1.24.2
+Swift package: https://github.com/microsoft/onnxruntime-swift-package-manager
+
+Instrument Serif
+SIL Open Font License, version 1.1. See InstrumentSerif-OFL.txt for the
+font's original copyright and complete license.
